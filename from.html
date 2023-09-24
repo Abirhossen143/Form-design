@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./form.css" />
+    <title>From</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="header">
+        <h1>From Design</h1>
+      </div>
+      <form>
+        <div class="display">
+          <div class="from-group">
+            <label for="from-name">First Name</label>
+            <input type="text" id="Firstname" name="fname" value="Name" />
+          </div>
+          <div>
+            <label for="from-name">Last Name</label>
+            <input type="text" id="Lastname" name="lname" value="Name" />
+          </div>
+        </div>
+        <div class="display">
+          <div class="from-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value="example.@gmail.com"
+            />
+          </div>
+          <div>
+            <label for="Phone">Phone</label>
+            <input type="tel" id="Phone" name="Phone" value="+880" />
+          </div>
+        </div>
+        <div class="display">
+          <div class="from-group">
+            <label for="Country">Country</label>
+            <select name="Country" id="Country">
+              <option value="Bangladesh">Bangladesh</option>
+              <option value="India">India</option>
+              <option value="Pakistan">Pakistan</option>
+            </select>
+          </div>
+          <div>
+            <label for="City">City</label>
+            <select name="City" id="City">
+              <option value="Chittagong">Chittagong</option>
+              <option value="Dhaka">Dhaka</option>
+              <option value="Comila">Comila</option>
+            </select>
+          </div>
+        </div>
+        <div class="radio">
+          <label for="Gender">Gender</label>
+          <input type="radio" id="Male" name="gender" value="Male" />
+          <label for="Male">Male</label>
+          <input type="radio" id="Female" name="gender" value="Female" />
+          <label for="Female">Female</label>
+          <input type="radio" id="Other" name="gender" value="Other" />
+          <label for="Other">Other</label>
+        </div>
+        <div class="textarea">
+          <label for="textarea">Bio</label>
+          <br />
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="display">
+          <div class="from-group">
+            <label for="Password">Password</label>
+            <input
+              type="password"
+              id="Password"
+              name="Password"
+              value="*********"
+            />
+          </div>
+          <div>
+            <label for="Password">Confirm Password</label>
+            <input
+              type="password"
+              id="Password"
+              name="Password"
+              value="*********"
+            />
+          </div>
+        </div>
+        <input type="checkbox" id="I accpet" name="checkbox" />
+        <label for="I accpet">I accpet terms and conditions</label>
+        <br />
+        <button class="Reset">Reset</button>
+        <button class="Submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
